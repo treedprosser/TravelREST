@@ -204,7 +204,7 @@ public class TravelExpertsResource {
         } else {
             em.getTransaction().commit();
             em.close();
-            return "{ message: 'Agent deleted successful' }";
+            return "{ message: 'Agent deleted successfully' }";
         }
     }
 }
